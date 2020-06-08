@@ -5,7 +5,7 @@ import { AppLoading } from 'expo';
 import { Roboto_400Regular, Roboto_500Medium } from '@expo-google-fonts/roboto';
 import { Ubuntu_700Bold, useFonts } from '@expo-google-fonts/ubuntu';
 
-import Home from './src/pages/Home'
+import Routes from './src/routes'
 
 /**
  * <> </> -> tag chamada de fregment onde nao tem nenhum conteudo, porque nao podemos retornar dois elementos
@@ -26,10 +26,10 @@ export default function App() {
     <>
       <StatusBar 
         barStyle="dark-content" 
-        //backgroundColor="transparent" 
+        backgroundColor="transparent" 
         translucent
       />
-      <Home />
+      <Routes />
     </>
   );
 }
