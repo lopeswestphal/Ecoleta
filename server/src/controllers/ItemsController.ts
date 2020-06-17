@@ -11,7 +11,8 @@ class ItemsController{
         return {
             id: item.id,
             title: item.title,
-            image_url: `http://localhost:3333/uploads/${item.image}`
+            //Teve que mudar a porta para funcionar no app as imagens.
+            image_url: `http://192.168.15.6:3333/uploads/${item.image}`
         };
     })
     
