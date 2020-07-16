@@ -9,7 +9,7 @@ import Routes from './src/routes'
 
 /**
  * <> </> -> tag chamada de fregment onde nao tem nenhum conteudo, porque nao podemos retornar dois elementos
- * Sem estarem em um "tipo de container" ou melhor so retornar um elemento.
+ * Sem estarem em um "tipo de container".
 */
 export default function App() {
   const [fontsLoaded] = useFonts({

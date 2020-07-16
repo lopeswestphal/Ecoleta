@@ -31,7 +31,7 @@ const Detail = () => {
 
     const navegation = useNavigation();
     const route = useRoute();
-    
+    // Se usa o 'AS' para informar pro TypeScript o formato do parametro. 
     const routeParams = route.params as Params;
     
     useEffect(() => {
